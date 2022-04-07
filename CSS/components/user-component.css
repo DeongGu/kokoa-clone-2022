@@ -32,6 +32,7 @@
 }
 
 .user-component__subtitle {
+    display: flex;
     margin-top: 8px;
     font-size: 15px;
     color: rgba(0,0,0,0.5);
@@ -54,6 +55,25 @@
     font-size: 50px;
     display: block;
     position: absolute;
-    bottom: 15px;
-    left: 70px;
+    top: 2px;
+    right: 15px;
+}
+
+.user-component__subtitle span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* display: inline-block;
+    text-align: center;
+    vertical-align: bottom; */
+
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
 }
