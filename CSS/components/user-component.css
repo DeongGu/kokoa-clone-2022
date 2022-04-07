@@ -48,3 +48,12 @@
     display: block;
     margin-bottom: 5px;
 }
+
+.user-component__pointer {
+    color: red;
+    font-size: 50px;
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: 70px;
+}
