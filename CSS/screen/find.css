@@ -112,3 +112,6 @@
     will-change: transform;
     animation: heartBeat 1s linear infinite;
 }
+.find-body {
+    height: 130vh;
+}
